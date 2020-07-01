@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="39.669735">
+    <testcase classname="Parameterization Datatable Concept" name="Login Validation" time="39.669735">
+        <system-out><![CDATA[Given User is on Login Page.................................................passed
+And The User enters UserName and Password...................................passed
+Then Click Login button.....................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

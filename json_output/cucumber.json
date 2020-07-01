@@ -1,0 +1,67 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login Validation",
+        "description": "",
+        "id": "parameterization-datatable-concept;login-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27657504002,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "Datatable_stepdef.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1067078704,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The User enters UserName and Password",
+            "match": {
+              "location": "Datatable_stepdef.the_User_enters_UserName_and_Password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "batchautomation",
+                  "Test@12345"
+                ],
+                "line": 7
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10945152002,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Login button",
+            "match": {
+              "location": "Datatable_stepdef.click_Login_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Parameterization Datatable Concept",
+    "description": "",
+    "id": "parameterization-datatable-concept",
+    "keyword": "Feature",
+    "uri": "C:/Users/user/Desktop/Training/BDDFramework/src/main/java/Features/datatable.feature"
+  }
+]
